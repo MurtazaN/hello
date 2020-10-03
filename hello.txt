@@ -1,4 +1,5 @@
 # Default is "World"
+#Author: Murtaza N (mnipplewala@worcester.edu)
 name = ARGV.first ||"World"
 
 puts "Hello, #{name}!"
