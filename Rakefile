@@ -1,1 +1,7 @@
-this is a useless file for lab 21
+#!/usr/bin/ruby -wKU
+
+task :default => :run
+
+task :run do
+  ruby '-Ilib', 'lib/hello.rb'
+end
